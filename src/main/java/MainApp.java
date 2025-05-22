@@ -10,7 +10,7 @@ public class MainApp
         // The world is your canvas
         World world = new World(200, 200);
         Turtle turtle = new Turtle(world,-100, -100);
-        
+
         int width = 200;
         int height = 200;
 
@@ -22,7 +22,7 @@ public class MainApp
 
 
         turtle.setPenWidth(3);
-        turtle.setColor(Color.GREEN);
+        turtle.setColor(Color.BLUE);
 
         turtle.turnRight(45);
         turtle.forward(hypotenuse);
